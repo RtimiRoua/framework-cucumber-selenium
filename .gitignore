@@ -1,8 +1,0 @@
-*.class
-*.exe
-target/
-.classpath
-.gitignore
-.project
-.settings/
-ligne de test
