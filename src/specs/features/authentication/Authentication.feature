@@ -1,6 +1,6 @@
 @authentification
 Feature: Authentification - OrangeHRM
-  ETQ utilisateur je souhaite m'authenfifier
+  ETQ utilisateur je souhaite m'authentifier
 
   @cnx-cas-passant
   Scenario: Tester l'interface de connexion
@@ -8,4 +8,4 @@ Feature: Authentification - OrangeHRM
     When je saisis le username "Admin"
     When je saisis le password "admin123"
     And je clique sur le boutton LOGIN
-    Then je me redirige vers la page home
+    Then je me redirige vers la page home "Welcome"

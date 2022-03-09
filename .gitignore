@@ -1,2 +1,7 @@
+*.class
 *.exe
-/target/
+target/
+.classpath
+.gitignore
+.project
+.settings/
